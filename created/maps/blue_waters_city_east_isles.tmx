@@ -209,9 +209,44 @@
    eAHtkgEKwzAMA/uMfaP//9wQ46gwjp2EFsaYoZNjydJSer6O4/zy5yiK/46E8x0oz8yHLMdMtzubzd31X9nzO9Kv7EctHqM7Rr3OVMY9Ofvn5t9/985X39uqfpSPj3Ck0TwWWs3pVxHPag9Nh5VHxskvmzPr8uDRz+JsrvuR5ej8TL+TO+PbaWZz4904d/4j3nNjj3dEeXmNvKu571d95bHCKUP62XLtSo7vxayKQ4tmNdP1eAmZZzOy0IG+Q+/oXk/1nke/m8W+sCvXxj7uRr7yd2300dn52Ls+cjqrwM/p+mUOXkydKX33uFfsszw0nW/H45Mhu84xuxPdX/2d3r/q9Qbm5riA
   </data>
  </layer>
- <objectgroup id="5" name="Mapevents" visible="0"/>
- <objectgroup id="6" name="Spawn" visible="0">
-  <object id="7" x="275" y="187" width="2" height="1"/>
+ <objectgroup id="5" name="Mapevents">
+  <object id="1" name="runway_to_harbor" type="mapchange" x="0" y="672" width="32" height="64">
+   <properties>
+    <property name="map" value="blue_waters_city_harbor"/>
+    <property name="place" value="runway_from_harbor"/>
+   </properties>
+  </object>
+  <object id="2" name="east_isles_house_entry" type="mapchange" x="224" y="576" width="32" height="32">
+   <properties>
+    <property name="map" value="blue_waters_city_east_isles_stone_house"/>
+    <property name="place" value="east_isles_house_entry"/>
+   </properties>
+  </object>
+  <object id="3" name="east_isles_church_entry" type="mapchange" x="384" y="512" width="32" height="32">
+   <properties>
+    <property name="map" value="blue_waters_city_east_isles_church"/>
+    <property name="place" value="east_isles_church_entry"/>
+   </properties>
+  </object>
+  <object id="4" name="east_isles_big_house_entry" type="mapchange" x="736" y="320" width="32" height="32">
+   <properties>
+    <property name="map" value="blue_waters_city_east_isles_big_stone_house"/>
+    <property name="place" value="east_isles_big_house_entry"/>
+   </properties>
+  </object>
+  <object id="5" name="east_isles_fisher_house_entry" type="mapchange" x="768" y="640" width="32" height="32">
+   <properties>
+    <property name="map" value="blue_waters_city_east_isles_fisher_hut"/>
+    <property name="place" value="east_isles_fisher_house_entry"/>
+   </properties>
+  </object>
  </objectgroup>
- <objectgroup id="7" name="Keys" visible="0"/>
+ <objectgroup id="6" name="Spawn" visible="0">
+  <object id="6" name="Fishermen" type="spawn" x="192" y="160" width="96" height="32">
+   <properties>
+    <property name="quantity" value="1"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Keys"/>
 </map>
