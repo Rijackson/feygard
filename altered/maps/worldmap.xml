@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="-152" y="-58">
+  <segment id="world1" x="-191" y="-161">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -231,6 +231,20 @@
     <map id="blue_waters_city_harbor" x="-90" y="-58"/>
     <map id="blue_waters_city_west_isles" x="-121" y="-58"/>
     <map id="blue_waters_west_isles_west_coast" x="-152" y="-58"/>
+    <map id="blue_waters_city_east_east_isles_center" x="18" y="-129"/>
+    <map id="blue_waters_city_east_east_isles_north" x="18" y="-160"/>
+    <map id="blue_waters_city_east_east_isles_south" x="18" y="-98"/>
+    <map id="blue_waters_city_east_isles_north_north" x="-61" y="-161"/>
+    <map id="blue_waters_city_east_isles_north_north_east" x="-30" y="-161"/>
+    <map id="blue_waters_city_east_isles_north_north_west" x="-92" y="-161"/>
+    <map id="blue_waters_city_east_isles_north_east" x="-30" y="-130"/>
+    <map id="blue_waters_city_east_isles_north" x="-61" y="-130"/>
+    <map id="blue_waters_city_east_isles_north_west" x="-92" y="-130"/>
+    <map id="blue_waters_city_south_east_isles" x="-61" y="-94"/>
+    <map id="blue_waters_city_south_east_isles_center" x="-92" y="-94"/>
+    <map id="blue_waters_city_south_east_isles_west" x="-123" y="-94"/>
+    <map id="blue_waters_city_south_west_isles" x="-160" y="-94"/>
+    <map id="blue_waters_city_south_west_isles_west" x="-191" y="-94"/>
     <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
   </segment>
