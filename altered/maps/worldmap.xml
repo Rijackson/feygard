@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <worldmap>
-  <segment id="world1" x="-191" y="-161">
+  <segment id="world1" x="-199" y="-252">
     <map id="blackwater_mountain0" x="53" y="469"/>
     <map id="blackwater_mountain1" x="32" y="448"/>
     <map id="blackwater_mountain2" x="32" y="437"/>
@@ -17,6 +17,8 @@
     <map id="blackwater_mountain40" x="71" y="389"/>
     <map id="blackwater_mountain53" x="86" y="327"/>
     <map id="blackwater_mountain54" x="117" y="321"/>
+    <map id="blackwater_mountain55" x="83" y="389"/>
+    <map id="blackwater_mountain56" x="85" y="368"/>
     <map area="crossglen" id="crossglen" x="148" y="355"/>
     <map area="crossroads" id="crossroads" x="179" y="300"/>
     <map area="fallhaven" id="fallhaven_ne" x="241" y="382"/>
@@ -100,7 +102,7 @@
     <map id="roadbeforecrossroads3" x="262" y="366"/>
     <map id="roadbeforecrossroads4" x="272" y="382"/>
     <map id="roadbeforecrossroads5" x="272" y="403"/>
-    <map id="roadbeforecrossroads6" x="293" y="405"/>
+    <map id="roadbeforecrossroads6" x="293" y="404"/>
     <map id="roadbeforecrossroads7" x="314" y="420"/>
     <map id="roadbeforecrossroads8" x="335" y="420"/>
     <map id="roadbeforecrossroads9" x="356" y="420"/>
@@ -141,9 +143,9 @@
     <map area="charwoodh" id="waytolostmine2" x="426" y="301"/>
     <map area="charwoodh" id="waytolostmine3" x="426" y="330"/>
     <map id="waytominingtown0" x="314" y="404"/>
-    <map id="waytominingtown1" x="344" y="389"/>
-    <map id="waytominingtown1a" x="375" y="407"/>
-    <map id="waytominingtown2" x="375" y="386"/>
+    <map id="waytominingtown1" x="343" y="389"/>
+    <map id="waytominingtown1a" x="374" y="407"/>
+    <map id="waytominingtown2" x="374" y="386"/>
     <map id="waytominingtown3" x="395" y="378"/>
     <map id="waytomountaincave0" x="627" y="255"/>
     <map id="waytomountaincave1" x="621" y="285"/>
@@ -152,11 +154,11 @@
     <map id="wild1" x="179" y="353"/>
     <map id="wild10" x="217" y="434"/>
     <map id="wild11" x="238" y="434"/>
-    <map id="wild11_clearing" x="241" y="455"/>
+    <map id="wild11_clearing" x="238" y="455"/>
     <map id="wild12" x="272" y="426"/>
     <map id="wild13" x="293" y="436"/>
     <map id="wild14" x="314" y="441"/>
-    <map id="wild14_clearing" x="316" y="458"/>
+    <map id="wild14_clearing" x="314" y="458"/>
     <map id="wild15" x="335" y="448"/>
     <map id="wild16" x="74" y="469"/>
     <map id="wild17" x="32" y="469"/>
@@ -223,10 +225,24 @@
     <map id="guynmart_wood_11" x="117" y="222"/>
     <map id="guynmart_wood_12" x="86" y="237"/>
     <map id="guynmart_wood_13" x="70" y="222"/>
-    <map id="guynmart_wood_14" x="54" y="222"/>
+    <map id="guynmart_wood_14" x="55" y="222"/>
+    <map id="guynmart_wood_15" x="24" y="206"/>
     <map id="waytolake12" x="678" y="174"/>
     <map id="arulirmountain1" x="817" y="94"/>
     <map id="arulirmountain2" x="848" y="96"/>
+    <map area="brimhaven_area" id="brimhaven1" x="426" y="259"/>
+    <map id="brimhaven4" x="395" y="259"/>
+    <map id="brimhaven2" x="395" y="290"/>
+    <map id="brimhaven3" x="457" y="265"/>
+    <map id="brimhaven7" x="457" y="259"/>
+    <map id="brimhaven8" x="426" y="290"/>
+    <map id="brimhaven_exit" x="457" y="296"/>
+    <map id="bogsten0" x="293" y="452"/>
+    <map id="bogsten5" x="282" y="447"/>
+    <map id="mywild18" x="168" y="459"/>
+    <map id="mywild19" x="192" y="459"/>
+    <map id="mywild20" x="217" y="455"/>
+    <map id="mywildcave" x="192" y="480"/>
     <map id="blue_waters_city_east_isles" x="-59" y="-58"/>
     <map id="blue_waters_city_harbor" x="-90" y="-58"/>
     <map id="blue_waters_city_west_isles" x="-121" y="-58"/>
@@ -245,7 +261,18 @@
     <map id="blue_waters_city_south_east_isles_west" x="-123" y="-94"/>
     <map id="blue_waters_city_south_west_isles" x="-160" y="-94"/>
     <map id="blue_waters_city_south_west_isles_west" x="-191" y="-94"/>
-    <namedarea id="crossglen" name="Crossglen" type="settlement"/>
+      <namedarea id="crossglen" name="Crossglen" type="settlement"/>
     <namedarea id="crossroads" name="Crossroads Guardhouse" type="other"/>
+    <namedarea id="charwoodh" name="Charwood" type="settlement"/>
+    <namedarea id="fallhaven" name="Fallhaven" type="settlement"/>
+    <namedarea id="flagstone" name="Flagstone Prison" type="other"/>
+    <namedarea id="fflask" name="Foaming Flask Tavern" type="other"/>
+    <namedarea id="loneford" name="Loneford" type="settlement"/>
+    <namedarea id="remgard" name="Remgard" type="settlement"/>
+    <namedarea id="vilegard" name="Vilegard" type="settlement"/>
+    <namedarea id="prim" name="Prim" type="settlement"/>
+    <namedarea id="stoutford" name="Stoutford" type="settlement"/>
+    <namedarea id="guynmart_area" name="Guynmart Castle" type="other"/>
+    <namedarea id="brimhaven_area" name="Brimhaven" type="settlement"/>
   </segment>
 </worldmap>
